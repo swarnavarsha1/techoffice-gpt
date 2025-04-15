@@ -10,14 +10,14 @@ make run
 ```
 OR 
 
-## Running Backend using the Docker Compose file.
+## Running Backend using the Docker Compose file
 
 ```bash
 cd private-gpt
 HF_TOKEN=<your_hf_token> docker-compose --profile llamacpp-cpu up
 ```
 
-## 🌐 Running Frontend Only
+## 🌐 Running Frontend Only (React)
 
 ```bash
 cd private-gpt-ui
