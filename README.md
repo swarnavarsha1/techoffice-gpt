@@ -26,7 +26,7 @@ npm start
 
 Your browser will open automatically.
 
-## 📦 Initial Setup (One-Time Setup)
+## 📦 Initial Manual Setup without docker(One-Time Setup)
 
 ### 1. Clone the Repository
 
@@ -126,7 +126,7 @@ http://localhost:8001/
 
 OR
 
-## 🌐 Running Frontend Only (React)
+## 🌐 Running Frontend using React
 
 ```bash
 cd private-gpt-ui
