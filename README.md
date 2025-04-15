@@ -1,7 +1,6 @@
 # Private GPT Setup Guide
 This guide walks you through setting up and running the Private GPT project using React UI
 
----
 ## 🛠️ Running Backend Only
 
 ```bash
@@ -32,8 +31,6 @@ git clone https://github.com/swarnavarsha1/techoffice-gpt.git
 cd private-gpt
 ```
 
----
-
 ### 2. Install pyenv for Windows
 
 ```powershell
@@ -46,8 +43,6 @@ Verify installation:
 ```bash
 pyenv version
 ```
-
----
 
 ### 3. Install and Set Python Version
 
@@ -72,15 +67,11 @@ poetry --version
 
 Make sure Poetry is added to your system path.
 
----
-
 ### 5. Install Make (Windows)
 
 ```bash
 choco install make
 ```
-
----
 
 ### 6. Set Python Version for Poetry
 
@@ -88,21 +79,16 @@ choco install make
 poetry env use python3.11
 ```
 
----
-
 ### 7. Install Project Dependencies
 
 ```bash
 poetry install --extras "ui llms-openai embeddings-openai vector-stores-qdrant"
 ```
 
----
-
 ### 8. Add Hugging Face Token
 
 Update `settings.yaml` with your Hugging Face token.
 
----
 
 ### 9. Run Setup Script
 
@@ -110,15 +96,11 @@ Update `settings.yaml` with your Hugging Face token.
 poetry run python scripts/setup
 ```
 
----
-
 ## Using OpenAI Model
 
 - Edit `settings-openai.yaml`
 - Add your `api_key`
 - Set the model name to `gpt-4o`
-
----
 
 ## 🚀 Running the Application (After First Setup)
 
@@ -139,5 +121,3 @@ Open your browser and navigate to using gradio:
 ```
 http://localhost:8001/
 ```
-
----
