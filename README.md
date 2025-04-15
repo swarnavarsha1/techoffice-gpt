@@ -123,3 +123,12 @@ Open your browser and navigate to using gradio:
 ```
 http://localhost:8001/
 ```
+
+OR
+
+## 🌐 Running Frontend Only (React)
+
+```bash
+cd private-gpt-ui
+npm start
+```
