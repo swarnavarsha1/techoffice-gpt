@@ -8,10 +8,14 @@ cd private-gpt
 $env:PGPT_PROFILES="openai"
 make run
 ```
+OR 
 
-Or use the Docker Compose file.
+## Running Backend using the Docker Compose file.
 
----
+```bash
+cd private-gpt
+HF_TOKEN=<your_hf_token> docker-compose --profile llamacpp-cpu up
+```
 
 ## 🌐 Running Frontend Only
 
@@ -50,8 +54,6 @@ pyenv version
 pyenv install 3.11
 pyenv local 3.11
 ```
-
----
 
 ### 4. Install Poetry (Python Dependency Manager)
 
